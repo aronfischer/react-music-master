@@ -1,12 +1,12 @@
 @font-face {
   font-family: RobotoCondensed;
-  src: url(/src/assets/roboto-condensed.light.ttf);
+  src: url(../assets/roboto-condensed.light.ttf);
   font-weight: 800;
 }
 
 @font-face {
   font-family: EconomicaBold;
-  src: url(/src/assets/economica-bold.ttf);
+  src: url(../assets/economica-bold.ttf);
 }
 
 body {
@@ -22,4 +22,40 @@ h3,
 h4,
 h5 {
   font-family: EconomicaBold;
+}
+
+.track {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.track-img {
+  width: 250px;
+  height: 250px;
+}
+
+.track-text {
+  position: absolute;
+  width: 250px;
+  bottom: 0;
+  background: black;
+  color: white;
+  padding: 5px;
+}
+
+.track-icon {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 10px;
+  opacity: 0.8;
 }

@@ -24,60 +24,39 @@ h5 {
   font-family: EconomicaBold;
 }
 
-.af-profile-picture {
-  width: 10rem;
-  border-radius: 5rem;
+.track {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
 }
 
-.title-fade-out {
-  opacity: 0;
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+.track-img {
+  width: 250px;
+  height: 250px;
 }
 
-.title-fade-in {
-  opacity: 1;
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+.track-text {
+  position: absolute;
+  width: 250px;
+  bottom: 0;
+  background: black;
+  color: white;
+  padding: 5px;
 }
 
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.track-icon {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 10px;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=index.css.map */
