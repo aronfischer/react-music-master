@@ -26,6 +26,7 @@ class Tracks extends Component {
     if (!track.preview_url) {
       return <span>N/A</span>;
     }
+
     if (
       this.state.playing &&
       this.state.playingPreviewUrl === track.preview_url
